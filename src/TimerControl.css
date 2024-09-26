@@ -47,7 +47,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Space between label and input */
   margin-bottom: 20px; /* Space below controls */
 }
 
