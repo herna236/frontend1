@@ -211,6 +211,20 @@ h1 {
   .times-up-message, .logout-button, .profile-button {
     font-size: 4vw; /* Larger text on smaller screens */
   }
+
+
+.input-controls {
+  display: flex;
+  align-items: center; /* Center align the inputs */
+  width: 100%; /* Ensure full width */
+}
+
+.time-input {
+  width: 80%; /* Adjust width to fit better on small screens */
+  margin: 5px 0; /* Add some margin for spacing */
+  padding: 10px; /* Add padding for better touch targets */
+  font-size: 4vw; /* Use viewport width for responsive text size */
+}
 }
 
 /* For Landscape (Horizontal) Mode */
